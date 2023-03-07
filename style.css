@@ -1,0 +1,362 @@
+body {
+    margin: 0;
+    font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  
+.d-f-c{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-f-fs{
+    display : flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.w10{
+    width: 100%;
+}
+
+.w9{
+    width : 80%;
+}
+
+.w8{
+    width: 80%;
+}
+
+.w7{
+    width: 70%;
+}
+.h10{
+    height: 100%;
+}
+
+.w9{
+    height : 80%;
+}
+
+.h8{
+    height: 80%;
+}
+
+.h7{
+    height: 70%;
+}
+.p1{
+    padding: 1rem;
+}
+.m1{
+    margin: 1rem;
+}
+
+.p2{
+    padding: 2rem;
+}
+
+.m2{
+    margin: 2rem;
+}
+
+.ml{
+    margin-left: 1rem;
+}
+
+.mr{
+    margin-right: 1rem;
+}
+
+.mt{
+    margin-top: 1rem;
+}
+
+.mb{
+    margin-bottom: 1rem;
+}
+
+.pl{
+    padding-left: 1rem;
+}
+
+.pr{
+    padding-right: 1rem;
+}
+
+.pt{
+    padding-top: 1rem;
+}
+
+.pb{
+    padding-bottom: 1rem;
+}
+
+.bn{
+    border: none;
+}
+
+.bd{
+    border: 10px solid;
+}
+
+.bg-red{
+   background-color: #FF1F62;
+}
+.bg-pink{
+    background-color: #F7ACCF;
+}
+.bg-blue{
+    background-color: #080D35;
+}
+.bg-purple{
+   background-color: #251939;
+}
+
+.c-red{
+    color: #FF1F62;
+ }
+ .c-pink{
+     color: #F7ACCF;
+ }
+ .c-blue{
+     color: #080D35;
+ }
+ .c-purple{
+    color: #251939;
+ }
+
+ .c-white{
+    color: white;
+ }
+
+ .opac9{
+    filter: opacity(90%);
+ }
+
+ .opac0{
+    filter: opacity(0%);
+ }
+
+ .bright20{
+    filter: brightness(20%);
+ }
+
+ .box-s{
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+ }
+
+ .pos-a{
+    position: absolute;
+ }
+
+.pos-r{
+    position: relative;
+}
+
+ .elev{
+    transform: scale(1.5);
+ }
+ .tr-ease{
+    transition: all 0.2s ease-out;
+ }
+
+ .tr-cubic{
+    bottom: 0px;
+    transition: all 0.2s cubic-bezier(0.86, 0, 0.07, 1);
+ }
+
+.bip{
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+.f-size1{
+    font-size: 1rem;
+
+}
+
+.f-size12{
+    font-size: 1.2rem;
+}
+
+.f-size14{
+    font-size: 1.4rem;
+}
+
+.f-size16{
+    font-size: 1.6rem;
+}
+
+.f-size18{
+    font-size: 1.8rem;
+}
+
+.f-size2{
+    font-size: 2rem;
+}
+
+.f-weight-500{
+    font-weight: 500;
+}
+
+.f-weight-400{
+    font-weight: 400;
+}
+
+.f-weight-bold{
+    font-weight: bold;
+}
+
+.font-fam-open{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mt2{
+    margin-top: 2rem;
+}
+
+.mt3{
+    margin-top: 3rem;
+}
+
+.mobile{
+    background-image: url('jonas-leupe-WargGLQW_Yk-unsplash.jpg');
+    background-position: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mr5{
+    margin-right: 5rem;
+}
+.ml5{
+    margin-left: 5rem;
+}
+
+li:hover{
+    color: red;
+}
+
+.h-p-b3:hover{
+    position: relative;
+    bottom: 30px;
+
+}
+
+.mb8{
+    margin-bottom: 8rem;
+}
+
+.c-p{
+
+    cursor: pointer;
+}
+
+.h-bg-g:hover{
+    background-color: rgba(255, 255, 0, 0.38);
+    cursor: pointer;
+}
+
+.w2{
+    width: 20%;
+}
+
+.w0{
+    width: 0%;
+}
+
+.w1{
+    width: 10%;
+}
+
+.w15{
+    width: 15%;
+}
+
+.w85{
+    width: 85%;
+}
+
+.d-n{
+    display: none;
+}
+
+.w46{
+    width: 46%;
+}
+
+.w3{
+    width: 30%;
+}
+
+@media screen and (max-width : 800px) {
+    .cdd{
+        flex-direction: column;
+    }
+    .dde{
+        display: none;
+    }
+    .ml5{
+        margin-left: 1.5rem;
+    }
+    .mr5{
+        margin-right: 1.5rem;
+    }
+    .w46{
+        width: 93%;
+    }
+    .w3{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width : 600px) {
+    .cdd{
+        flex-direction: column;
+    }
+    .dde{
+        display: none;
+    }
+    .ml5{
+        margin-left: 1.3rem;
+    }
+    .mr5{
+        margin-right: 1.3rem;
+    }
+    .w46{
+        width: 95%;
+    }
+    .w3{
+        width: 93%;
+    }
+}
+
+@media screen and (max-width : 500px) {
+    .cdd{
+        flex-direction: column;
+    }
+    .dde{
+        display: none;
+    }
+    .ml5{
+        margin-left: 1rem;
+    }
+    .mr5{
+        margin-right: 1rem;
+    }
+    .w46{
+        width: 100%;
+    }
+    .w3{
+        width: 95%;
+    }
+}
